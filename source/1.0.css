@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+a:visited {
+    text-decoration: none;
+}
+a { 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+body {
+    font-family: 'Poppins', serif;
+    background: linear-gradient(90deg, #00FF75 0%, #0C07EF 100%);
+    box-shadow: 36px 28px 49px 15px #023002;
+    background-image: url('https://w.forfun.com/fetch/a0/a07f5ba402519c1b99641b420bc95af1.jpeg?w=2500');
+    margin: 0;
+    overflow: auto; /* Убираем возможный отступ браузера и предотвращаем прокрутку */
+    background-size: cover; /* Заполняет всю видимую область, сохраняя соотношение сторон */
+    background-position: center; /* Выравнивание изображения по центру */
+    background-repeat: no-repeat; /* Запрет повторения фонового изображения */
+}
+
+
+section {
+    padding: 20px; 
+}
+
+
+.nav-link {
+    color: rgb(104, 190, 117);
+}
+
+.nav-link:hover {
+    color: rgb(107, 38, 2);
+}
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(35, 31, 54);
+}
+
+.navbar-toggler img {
+    width: 31px;
+}
+.navbar-toggler-icon {
+    background-image: url(/photo/ornament.png);
+    background-size: cover;
+}
+.row {
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    margin-left: -20px;
+    transition: color 0.3s;
+    width: 31px;
+}
+.right a{
+    color: #1a2017;
+}
+.right:hover a{
+    color: rgb(38, 69, 29);
+}
+
+.sidebar {
+    color:aquamarine ;
+    background: linear-gradient(270deg, #7000FF 0%, #FF6363 80%);
+}
+
+
+.card {
+    color: rgb(60, 255, 255);
+    background: linear-gradient(270deg,#7474BF, #314e64);
+}
+
+.card a {
+    color: rgb(96, 255, 239);
+    text-decoration: none;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+.footer-text{
+    color: rgb(0, 234, 234);
+    margin: auto auto;
+}
+
+
+.container {
+    position: relative;
+    max-width: 1000px; /* Максимальная ширина контейнера с контентом */
+    margin: 0 auto; /* Центрирование контейнера по горизонтали */
+  }
+
+.full-width-image {
+    width: 100vw; 
+    height: 100vh;
+    object-fit: cover; /* Заполнение контейнера, сохраняя соотношение сторон и обрезая изображение при необходимости */
+    position: fixed; /* Фиксированная позиция, чтобы изображение не прокручивалось с контентом */
+    top: 0;
+    left: 0;
+}
+
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; /* Радиус углов для гладких краев */
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block; /* Размещаем как блочный элемент для установки ширины и высоты */
+    margin: 20px; /* отступ, можно настроить по вашему желанию */
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.custom-link {
+    text-decoration: none; /* Убираем подчёркивание у ссылки */
+    color: #3D9C6C;
+    transition: color 0.6s; /* Анимация смены цвета при наведении */
+  }
+
+  .custom-link:hover {
+    color: #9ED478; 
+  }
+
+footer, 
+.btn-outline-primary{
+    background: linear-gradient(270deg, #D770B2,#E4AD7A);
+}
