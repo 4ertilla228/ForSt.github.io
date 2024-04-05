@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 230px;
+    height: 70px;
+}
+
+.link-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(129, 129, 129, 0.5);
+    color: rgb(37, 188, 107);
+    text-decoration: none;
+}
+
+.link-container {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.link-container:hover {
+    background-color: rgba(53, 69, 72, 0.971);
+}
+
+.centered-image {
+    position: absolute;
+    top: -275px; /* Помещаем картинку под контейнером */
+    left: -67px;
+    width: calc(100% + 20px); /* Учитываем добавленные пиксели снизу и слева */
+    height: calc(100% + 20px);
+    z-index: -1; /* Чтобы картинка была под контейнером */
+}
+
+.centered-image {
+    width: 370px; /* Изменяем ширину изображения */
+    height: auto; /* Подстраиваем высоту под соотношение сторон */
+}
+
+.link-text {
+    font-size: 18px; /* Изменяем размер текста */
+    font-weight: bold; /* Делаем текст жирным */
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* чтобы текст занимал всю ширину родительского элемента */
+    text-align: center;
+    font-weight: bold;
+}
