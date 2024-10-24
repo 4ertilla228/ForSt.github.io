@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', serif;
     background: linear-gradient(90deg, #00FF75 0%, #0C07EF 100%);
     box-shadow: 36px 28px 49px 15px #023002;
-    background-image: url('https://w.forfun.com/fetch/a0/a07f5ba402519c1b99641b420bc95af1.jpeg?w=2500');
+    background-image: url('https://images3.alphacoders.com/112/1122689.png');
     margin: 0;
     overflow: auto; /* Убираем возможный отступ браузера и предотвращаем прокрутку */
     background-size: cover; /* Заполняет всю видимую область, сохраняя соотношение сторон */
